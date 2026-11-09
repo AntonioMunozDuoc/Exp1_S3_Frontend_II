@@ -8,8 +8,8 @@ Sitio web de gestión de inventario para un supermercado. Está construido con *
 
 ## Enlaces
 
-- **Repositorio:** https://github.com/AntonioMunozDuoc/supermercado-antonio-munoz-PFY2202
-- **Sitio publicado:** https://antoniomunozduoc.github.io/supermercado-antonio-munoz-PFY2202/
+- **Repositorio:** https://github.com/AntonioMunozDuoc/Exp1_S3_Frontend_II
+- **Sitio publicado:** https://antoniomunozduoc.github.io/Exp1_S3_Frontend_II/
 
 ## Tecnologías
 
