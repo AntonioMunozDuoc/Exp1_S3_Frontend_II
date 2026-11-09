@@ -1,1 +1,0 @@
-import{j as s}from"./index-J2HUuIP3.js";const a={primario:"btn btn-primario",secundario:"btn btn-secundario",peligro:"btn btn-peligro"};function e({variante:t="primario",className:n="",type:o="button",children:r,...i}){return s.jsx("button",{type:o,className:`${a[t]} ${n}`,...i,children:r})}export{e as B};

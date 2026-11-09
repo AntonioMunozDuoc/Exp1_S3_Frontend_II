@@ -1,1 +1,0 @@
-import{j as t,L as e}from"./index-J2HUuIP3.js";function a(){return t.jsxs("div",{className:"tarjeta text-center",children:[t.jsx("h1",{className:"text-3xl text-slate-800",children:"404"}),t.jsx("p",{className:"mt-2 text-slate-600",children:"La página que buscas no existe."}),t.jsx(e,{to:"/",className:"btn btn-primario mt-4",children:"Volver al inicio"})]})}export{a as default};

@@ -1,0 +1,1 @@
+import{j as e}from"./index-CtzMS4ss.js";function l({titulo:t,subtitulo:s,children:x}){return e.jsxs("header",{className:"mb-6 flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between",children:[e.jsxs("div",{children:[e.jsx("h1",{className:"text-2xl text-slate-800 sm:text-3xl",children:t}),s&&e.jsx("p",{className:"mt-1 text-slate-500",children:s})]}),x]})}export{l as P};
