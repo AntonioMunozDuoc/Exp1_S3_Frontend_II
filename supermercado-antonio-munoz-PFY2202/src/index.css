@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+h1, h2, h3 {
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 700;
+}
+
+/* Clases reutilizables con @apply: evitan repetir los mismos patrones de Tailwind en el JSX. */
+@layer components {
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 rounded-lg px-4 py-2 text-sm font-semibold
+           transition focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2
+           disabled:cursor-not-allowed disabled:opacity-50;
+  }
+
+  .btn-primario {
+    @apply bg-marca-primario text-white hover:bg-marca-oscuro focus-visible:ring-marca-primario;
+  }
+
+  .btn-secundario {
+    @apply bg-white text-slate-700 ring-1 ring-slate-300 hover:bg-slate-50 focus-visible:ring-slate-400;
+  }
+
+  .btn-peligro {
+    @apply bg-red-600 text-white hover:bg-red-700 focus-visible:ring-red-500;
+  }
+
+  .campo {
+    @apply w-full rounded-lg border border-slate-300 bg-white px-3 py-2 text-sm text-slate-900
+           placeholder-slate-400 focus:border-marca-primario focus:outline-none focus:ring-2 focus:ring-marca-primario/30;
+  }
+
+  .campo-invalido {
+    @apply border-red-500 focus:border-red-500 focus:ring-red-500/30;
+  }
+
+  .tarjeta {
+    @apply rounded-xl bg-white p-6 shadow-md ring-1 ring-slate-100;
+  }
+}
