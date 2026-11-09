@@ -1,0 +1,1 @@
+import{j as r}from"./index-J2HUuIP3.js";function l({stock:e}){let t="bg-green-100 text-green-800",n=`${e} disponibles`;return e===0?(t="bg-red-100 text-red-800",n="Agotado"):e<=5&&(t="bg-amber-100 text-amber-900",n=`Quedan ${e}`),r.jsx("span",{className:`inline-block rounded-full px-2.5 py-0.5 text-xs font-semibold ${t}`,children:n})}export{l as S};
